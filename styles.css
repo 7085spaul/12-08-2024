@@ -1,0 +1,60 @@
+/* Universal styles for all images */
+
+img {
+    display: block;
+    /* Remove extra space below images */
+    margin: 0 auto;
+    /* Center images horizontally */
+    max-width: 100%;
+    /* Ensure images are responsive */
+}
+
+
+/* Container to center align everything */
+
+.container {
+    text-align: center;
+    /* Center text and inline elements horizontally */
+}
+
+
+/* Section to define gallery layout */
+
+.gallery {
+    display: inline-block;
+    /* Ensure the section only takes up as much space as needed */
+    text-align: center;
+    /* Center images and text inside the section */
+}
+
+
+/* Styling for each item */
+
+.item {
+    display: inline-block;
+    /* Display images and text side by side */
+    margin: 10px;
+    /* Space between items */
+}
+
+
+/* Styling for the info div */
+
+.info {
+    margin-top: 5px;
+    /* Margin above the text */
+}
+
+
+/* Styling for h3 and p tags */
+
+h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 5px;
+    color: #555;
+}
